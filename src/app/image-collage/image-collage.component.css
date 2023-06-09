@@ -1,0 +1,59 @@
+.image-collage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 10px;
+  row-gap: 10px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.image-card {
+  width: calc(33.33% - 10px);
+  margin-bottom: 10px;
+}
+
+.loading {
+  height: 100px;
+  background-color: #f1f1f1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.vantage-circle {
+  font-family: 'Pacifico', cursive;
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.socials {
+  text-align: center;
+  padding: 30px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-github {
+  color: white;
+}

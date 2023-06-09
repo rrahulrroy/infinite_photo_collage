@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<h1 class="vantage-circle">Vantage Circle</h1>
+
+<div class="socials">
+  <a href="https://www.linkedin.com/in/rahul-roy-7039b4139/" class="fa fa-linkedin"></a>
+  <a href="https://github.com/rrahulrroy" class="fa fa-github"></a>
+</div>
+
+<div class="image-collage">
+  <div class="image-card" *ngFor="let image of images">
+    <img src="{{ image.download_url }}" alt="{{ image.author }}" />
+  </div>
+  <div class="loading" infiniteScroll (scrolled)="loadImages()"></div>
+</div>
